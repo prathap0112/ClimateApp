@@ -3,7 +3,7 @@ import 'package:climate_app/services/location.dart';
 import 'package:climate_app/services/networking.dart';
 import 'package:flutter/material.dart';
 
-const apiKey = '54b0f1999f4bee3420bde26c45830463';
+const apiKey = 'f2d0211d54c274b0e11e62ea0f239195';
 
 class LoadingScreen extends StatefulWidget {
   static String routeName = 'LoadingScreen';

@@ -1,4 +1,5 @@
 import 'package:climate_app/routes.dart';
+import 'package:climate_app/screens/city_screen.dart';
 import 'package:climate_app/screens/loading_screen.dart';
 import 'package:climate_app/screens/location_screen.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Climate_App',
       theme: ThemeData.dark(),
-      initialRoute: LocationScreen.routeName,
+      initialRoute: LoadingScreen.routeName,
       routes: routes,
     );
   }
